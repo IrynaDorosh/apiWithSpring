@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
+    <bean id = "classicMusic"
+          class = "com.dorosh.springPractice1.DI2L6.ClassicMusic">
+    </bean>
+
+    <bean id="player"
+          class = "com.dorosh.springPractice1.DI2L6.Player">
+        <property name="music" ref="classicMusic"/>
+        <property name="name" value="${player.name}"/>
+        <property name="volume" value="${player.volume}"/>
+
+    </bean>
+
+
+
+
+
+
+
+
+
+</beans>
