@@ -4,7 +4,7 @@ import com.dorosh.stackExchange2.models.SiteDTO;
 import com.dorosh.stackExchange2.models.SitesDTO;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;
 import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
