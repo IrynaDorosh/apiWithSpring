@@ -31,6 +31,7 @@ public class ControllersBaeldung {
     void tt3() { //obtain header
         HttpHeaders httpHeaders = restTemplate.headForHeaders(url);
         Assert.isTrue(httpHeaders.getContentType().includes(MediaType.APPLICATION_JSON));
+        //grgrudrgdroygodiryg
     }
 
 
