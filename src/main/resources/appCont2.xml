@@ -6,16 +6,16 @@
 
 
     <bean id="player"
-          class = "com.dorosh.springPractice1.musicLesson.Player">
+          class = "com.dorosh.springPractice.musicLessonL3-5.Player">
         <constructor-arg ref="rockMusic"/>
     </bean>
 
     <bean id = "classicMusic"
-          class = "com.dorosh.springPractice1.musicLesson.ClassicMusic">
+          class = "com.dorosh.springPractice.musicLessonL3-5.ClassicMusic">
     </bean>
 
     <bean id = "rockMusic"
-          class = "com.dorosh.springPractice1.musicLesson.RockMusic">
+          class = "com.dorosh.springPractice.musicLessonL3-5.RockMusic">
     </bean>
 
 

@@ -7,7 +7,7 @@
 
 
     <bean id="testBean"
-          class="com.dorosh.springPractice1.sringLessons.TestBean">
+          class="com.dorosh.springPractice.sringLessonsL1_2.TestBean">
 
         <constructor-arg value="Neil"/>
     </bean>
