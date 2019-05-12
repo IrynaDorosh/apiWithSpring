@@ -38,7 +38,10 @@ public class PetShopClient {
     public void test2(){
         putPet(2, "MirelaKukela");
         System.out.println(getPetnameByPetID(2));
+        //tyyrtyrtyrtyrty
+        //yhvdffgdfgsdf
     }
+
 
 
 }
